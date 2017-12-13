@@ -1,0 +1,6 @@
+from pymongo import MongoClient
+from bs4 import BeautifulSoup
+from Dwonloader import Downloader
+import thread_crawler
+
+D = Downloader()
